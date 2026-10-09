@@ -1,0 +1,16 @@
+// valid program: precedence, associativity, mixed types
+int a = 10;
+int b = 3;
+float x = 2.5;
+int c = a + b * 2 - 4 / 2;
+float y = x * (a - b) + 1.5e1;
+int p = 2 ^ 3 ^ 2;
+int r = a % b;
+int n = -a + -(b - 1);
+c = c + 1;
+print c;
+print y;
+print p;
+print r;
+print n;
+print 2 + 3 * 4;
